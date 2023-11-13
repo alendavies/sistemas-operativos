@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/home/pgallino/Documents/2c2023/sisop/sisop_2023b_g14/sched/kern",
+      "program": "/home/pgallino/Documents/2c2023/sisop/sisop_2023b_g14/sched/kern/build/Debug/outDebug",
+      "MIMode": "lldb",
+      "miDebuggerPath": "/usr/bin/lldb-14",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
